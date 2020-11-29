@@ -93,7 +93,7 @@ body{
     margin:1% 5%;
     display: flex;
     justify-content: space-evenly;
-    background-color: rgba(22, 22, 24, 0.363);
+    background-color: rgba(100, 98, 98, 0.247);
 }
 
 .miembros-contenedor__imagen{
@@ -103,9 +103,29 @@ body{
     margin: 1% 0;
 }
 
-.miembros-contenedor__datos{
+.miembros-contenedor__datos, .footer-contenedor__datos{
     list-style: none;
     padding: 0;
    
 }
 
+/* TODO Footer */
+
+.footer{ 
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-contenedor{
+   width: 40%;
+   /* background-color: rgba(219, 15, 15, 0.295); */
+   text-align: center;
+   color: aliceblue;
+   margin: 1%;
+
+}
+
+.footer-contenedor>a{
+    color: white;
+}
