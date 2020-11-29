@@ -1,8 +1,7 @@
 body{
     width: 1200px;
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto;    
 }
 
 /* TODO Servicios */
@@ -17,23 +16,20 @@ body{
 
 .servicios-contenedor{
     width: 30%;
-    /* border: red solid; */
-    
-    
+    /* border: red solid; */   
 }
 
-.titulo{
+.servicios-contenedor__titulo{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.servicios-contenedor__titulo{
+.servicios-contenedor__titulo1{
    position: absolute;
-    
 }
 
-.servicios-contenedor__informacion, .servicios-contenedor__titulo{
+.servicios-contenedor__informacion, .servicios-contenedor__titulo1, .miembros-titulo {
     text-align: center;
     
 }
@@ -48,11 +44,40 @@ body{
 
 .servicios-contenedor__imagen:hover{
     filter: opacity(1);
-    
 }
 
 .servicios-contenedor__informacion > a{
     text-decoration: none;
     color: red;
-     
 }
+
+/* TODO Fin servicios */
+
+/* TODO Miembros */
+
+.miembros, .servicios{
+    /* background-color: yellow;   */
+    
+}
+
+.miembros{
+    background-color: rgba(0, 0, 0, 0.116);
+}
+.miembros-contenedor{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.miembros-contenedor__imagen{
+    border-radius: 80% ;
+    width: 15%;
+    height: 200px;
+    margin: 1% 0;
+}
+
+.miembros-contenedor__datos{
+    list-style: none;
+    padding: 0;
+   
+}
+
