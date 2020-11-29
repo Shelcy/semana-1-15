@@ -16,7 +16,7 @@ body{
 
 .servicios-contenedor{
     width: 30%;
-    /* border: red solid; */   
+    border: red solid;    
 }
 
 .servicios-contenedor__titulo{
@@ -61,11 +61,15 @@ body{
 }
 
 .miembros{
-    background-color: rgba(0, 0, 0, 0.116);
+    background-color: rgba(0, 0, 0, 0.014);
+    
 }
 .miembros-contenedor{
+    width: 90%;
+    margin:1% 5%;
     display: flex;
     justify-content: space-evenly;
+    background-color: rgba(22, 22, 24, 0.363);
 }
 
 .miembros-contenedor__imagen{
