@@ -1,0 +1,81 @@
+body{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* TODO Servicios */
+
+.servicios{
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    
+}
+
+.servicios-contenedor{
+    width: 30%;
+    /* border: red solid; */
+    
+    
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios-contenedor__titulo{
+   position: absolute;
+    
+}
+
+.servicios-contenedor__informacion, .servicios-contenedor__titulo{
+    text-align: center;
+    
+}
+
+.servicios-contenedor__imagen{
+    width: 90%;
+    height: 200px;
+    margin: 0 5%; 
+    filter: opacity(.6);
+    border-radius: 20% 10%;
+}
+
+.servicios-contenedor__imagen:hover{
+    filter: opacity(1);
+    
+}
+
+.servicios-contenedor__informacion > a{
+    text-decoration: none;
+    color: red;
+     
+}
+
+/* NOTICIAS */
+
+.noticias{
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify
+    width: 50%;
+}
+
+.bloque__nota{
+  
+    /* display: flex; */
+    padding: 100px;
+    
+    
+}
+
+.bloque1, .bloque2{
+    width: 50%;
+}
+
