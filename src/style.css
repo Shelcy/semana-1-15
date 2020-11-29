@@ -1,0 +1,138 @@
+body{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;    
+
+}
+/* TODO Servicios */
+
+.servicios{
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    
+}
+
+.servicios-contenedor{
+    width: 30%;
+    /* border: red solid; */
+
+}
+
+.servicios-contenedor__titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios-contenedor__titulo1{
+   position: absolute;
+}
+
+.servicios-contenedor__informacion, .servicios-contenedor__titulo1, .miembros-titulo {
+    text-align: center;
+}
+
+.servicios-contenedor__imagen{
+    width: 90%;
+    height: 200px;
+    margin: 0 5%; 
+    filter: opacity(.6);
+    border-radius: 20% 10%;
+}
+
+.servicios-contenedor__imagen:hover{
+    filter: opacity(1);
+    
+}
+
+.servicios-contenedor__informacion > a{
+    text-decoration: none;
+    color: red;
+     
+}
+
+/* NOTICIAS */
+
+.noticias{
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify
+    
+}
+
+.bloque__nota{
+  
+    /* display: flex; */
+    padding: 100px;
+    
+    
+}
+
+.bloque1, .bloque2{
+    width: 50%;
+}
+
+/* TODO Fin servicios */
+
+/* TODO Miembros */
+
+/* .miembros, .servicios{
+     background-color: yellow;   
+    
+} */
+
+.miembros{
+    background-color: rgba(0, 0, 0, 0.014);
+    
+}
+.miembros-contenedor{
+    width: 90%;
+    margin:1% 5%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(100, 98, 98, 0.247);
+}
+
+.miembros-contenedor__imagen{
+    border-radius: 80% ;
+    width: 15%;
+    height: 200px;
+    margin: 1% 0;
+}
+
+.miembros-contenedor__datos, .footer-contenedor__datos{
+    list-style: none;
+    padding: 0;
+   
+}
+
+/* TODO Footer */
+
+.footer{ 
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-contenedor{
+   width: 40%;
+   /* background-color: rgba(219, 15, 15, 0.295); */
+   text-align: center;
+   color: aliceblue;
+   margin: 1%;
+
+}
+
+.footer-contenedor>a{
+    color: white;
+}
+
+/* TODO Fin Footer */
+
+.header{
+    background-color: cornflowerblue;
+    align-self: center;
+}
