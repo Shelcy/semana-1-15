@@ -32,48 +32,16 @@ body{
 
 .servicios-contenedor__informacion, .servicios-contenedor__titulo1, .miembros-titulo {
     text-align: center;
-}
-
-.servicios-contenedor__imagen{
-    width: 90%;
-    height: 200px;
-    margin: 0 5%; 
-    filter: opacity(.6);
-    border-radius: 20% 10%;
-}
-
-.servicios-contenedor__imagen:hover{
-    filter: opacity(1);
+    margin-right: auto;
     
 }
-
-.servicios-contenedor__informacion > a{
-    text-decoration: none;
-    color: red;
-     
+/* HEADER INICIO */
+.header{
+    background-color: cornflowerblue;
+    align-self: center;
 }
 
-/* NOTICIAS */
 
-.noticias{
-    background-color: darkgoldenrod;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: justify
-    
-}
-
-.bloque__nota{
-  
-    /* display: flex; */
-    padding: 100px;
-    
-    
-}
-
-.bloque1, .bloque2{
-    width: 50%;
-}
 
 /* TODO Fin servicios */
 
