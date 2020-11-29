@@ -2,8 +2,8 @@ body{
     width: 1200px;
     margin-left: auto;
     margin-right: auto;    
-}
 
+}
 /* TODO Servicios */
 
 .servicios{
@@ -16,7 +16,8 @@ body{
 
 .servicios-contenedor{
     width: 30%;
-    border: red solid;    
+    /* border: red solid; */
+
 }
 
 .servicios-contenedor__titulo{
@@ -31,7 +32,6 @@ body{
 
 .servicios-contenedor__informacion, .servicios-contenedor__titulo1, .miembros-titulo {
     text-align: center;
-    
 }
 
 .servicios-contenedor__imagen{
@@ -44,11 +44,35 @@ body{
 
 .servicios-contenedor__imagen:hover{
     filter: opacity(1);
+    
 }
 
 .servicios-contenedor__informacion > a{
     text-decoration: none;
     color: red;
+     
+}
+
+/* NOTICIAS */
+
+.noticias{
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify
+    
+}
+
+.bloque__nota{
+  
+    /* display: flex; */
+    padding: 100px;
+    
+    
+}
+
+.bloque1, .bloque2{
+    width: 50%;
 }
 
 /* TODO Fin servicios */
